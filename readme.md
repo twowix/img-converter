@@ -2,7 +2,7 @@
 
 ## Info
 pdf / jpg / png 이미지 변환 및 압축 프로그램  
-<img src="preview.png" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+<img src="preview.png" width="400px" style="margin-top:30px" alt="RubberDuck"></img>
 
 ## Install
 각 OS에 맞는 압축파일 다운 및 압축 해제  
