@@ -4,20 +4,21 @@
 pdf / jpg / png 이미지 변환 및 압축 프로그램   
    
    
-<img src="preview.png" width="400px" style="margin-top:30px" alt="twowix image converter"></img>
+<img src="preview_img/0.1.0.png" width="400px" style="margin-top:30px" alt="twowix image converter"></img>
 
 ## Install
 각 OS에 맞는 압축파일 다운 및 압축 해제  
-window - [win-twowix-image-converter-0.0.1.zip](https://github.com/twowix/twowix-image-converter/releases/download/0.0.1/win-twowix-image-converter-0.0.1.zip)  
-mac = mac-twowix-image-converter-0.0.1.zip (TODO-맥이 회사에 있음..)
+window - [win-twowix-image-converter-0.1.0.zip](https://github.com/twowix/twowix-image-converter/releases/download/0.1.0/win-twowix-image-converter-0.1.0.zip)  
+mac = mac-twowix-image-converter-0.1.0.zip (TODO-맥이 회사에 있음..)
 
 ## Usage
 1. twowix-image-converter 실행
 2. 파일 선택 버튼으로 파일 가져오기 (pdf, jpg, png)
 3. 저장 경로버튼으로 저장할 폴더 선택  
 
-변환: pdf -> jpg / png, jpg -> pdf 로 저장 경로에 변환하여 저장  
-압축: pdf, png, jpg -> jpg 로 압축
+변환: pdf -> jpg 혹은 png, jpg -> pdf 로 변환    
+압축: pdf, png, jpg -> jpg 로 압축  
+병합: png, jpg -> 하나의 pdf 로 병합  
 
 ## ETC
 오늘은 추석이다.  
