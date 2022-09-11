@@ -7,8 +7,8 @@ pdf / jpg / png 이미지 변환 및 압축 프로그램
 <img src="preview_img/0.1.0.png" width="400px" style="margin-top:30px" alt="twowix image converter"></img>
 
 ## Install
-각 OS에 맞는 압축파일 다운 및 압축 해제  
-window - [win-twowix-image-converter-0.1.0.zip](https://github.com/twowix/twowix-image-converter/releases/download/0.1.0/win-twowix-image-converter-0.1.0.zip)  
+각 OS에 맞는 파일 다운 및 실행  
+window - [win-twowix-image-converter-0.1.0.exe](https://github.com/twowix/twowix-image-converter/releases/download/0.1.0/win-twowix-image-converter-0.1.0.exe)  
 mac = mac-twowix-image-converter-0.1.0.zip (TODO-맥이 회사에 있음..)
 
 ## Usage

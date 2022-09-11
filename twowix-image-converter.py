@@ -9,6 +9,10 @@ import tempfile
 import fitz, os
 
 
+def resource_path(relative_path):
+    base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base_path, relative_path)
+
 class ScrollLabel(QScrollArea):
     file_name = []
     status_name = []
@@ -57,7 +61,8 @@ class Window(QWidget):
         self.init_ui()
 
     def init_ui(self):
-        self.setWindowIcon(QIcon('twowix-logo.png'))
+        window_ico = resource_path('twowix-logo.png')
+        self.setWindowIcon(QIcon(window_ico))
         self.progress = QProgressBar(self)
         self.progress.setGeometry(10, 370, 514, 10)
         self.progress.setFormat("")
