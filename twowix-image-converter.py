@@ -1,12 +1,11 @@
+import os
 import sys
 
+import fitz
 from PIL import Image
-from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import *
+from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import *
-from pdf2image import convert_from_path
-import tempfile
-import fitz, os
 
 
 def resource_path(relative_path):
